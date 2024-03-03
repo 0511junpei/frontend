@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "next",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next",
     "build": "next build",
     "start": "next start"
   },
